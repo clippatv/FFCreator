@@ -77,6 +77,10 @@ const choices = [
     value: 'lottie',
   },
   {
+    name: 'Render AE Lottie animations file with skottie',
+    value: 'skottie',
+  },
+  {
     name: 'Clear all caches and videos',
     value: 'clear',
     func: clearAllFiles,

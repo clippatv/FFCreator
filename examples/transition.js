@@ -13,7 +13,7 @@ const outputDir = path.join(__dirname, './output/');
 const cacheDir = path.join(__dirname, './cache/');
 
 const transitionDemoTask = () => {
-  const trans = shuffle(['Windows4', 'Stretch', 'Radiation', 'TricolorCircle', 'cube']);
+  const trans = shuffle(['DreamyZoom', 'Stretch', 'Radiation', 'TricolorCircle', 'cube']);
   const order = ['一', '二', '三', '四', '五'];
 
   // create creator instance
@@ -90,5 +90,5 @@ const creatScene = ({ index, transition, text }) => {
 
   return scene;
 };
-
+transitionDemoTask()
 module.exports = () => startAndListen(() => FFCreatorCenter.addTask(transitionDemoTask));

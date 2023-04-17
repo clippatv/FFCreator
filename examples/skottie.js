@@ -1,7 +1,7 @@
 const path = require('path');
 const colors = require('colors');
 const startAndListen = require('./listen');
-const { FFCreatorCenter, FFScene, FFImage, FFLottie, FFCreator } = require('../');
+const { FFCreatorCenter, FFScene, FFImage, FFLottie, FFCreator, FFSkottie } = require('../');
 
 const createFFTask = () => {
   const logo2 = path.join(__dirname, './assets/imgs/logo/logo2.png');
@@ -30,7 +30,7 @@ const createFFTask = () => {
   scene.setBgColor('#6ab7b0');
 
   // add lottie comp
-  const flottie1 = new FFLottie({
+  const flottie1 = new FFSkottie({
     x: width / 2,
     y: height / 2,
     width,
@@ -40,26 +40,8 @@ const createFFTask = () => {
   });
   scene.addChild(flottie1);
 
-  // add lottie comp
-  const flottie2 = new FFLottie({
-    x: width / 2,
-    y: height / 2,
-    width: width,
-    height: width,
-    file: file2,
-    loop: true,
-  });
-  flottie2.addEffect('fadeInDown', 1, 12);
-  flottie2.replaceAsset('image_1', img1);
-  flottie2.replaceAsset('image_6', img2);
-  scene.addChild(flottie2);
 
-  // add logo image
-  const ftitle = new FFImage({ path: logo2, x: width / 2, y: 100 });
-  ftitle.addEffect('fadeInUp', 1, 4);
-  scene.addChild(ftitle);
-
-  scene.setDuration(18);
+  scene.setDuration(5);
   creator.addChild(scene);
   creator.start();
 
