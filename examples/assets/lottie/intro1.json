@@ -5117,7 +5117,7 @@
                   "s": {
                     "s": 114,
                     "f": "Montserrat-Bold",
-                    "t": "USERNAME",
+                    "t": "USERNAMELONGER",
                     "j": 0,
                     "tr": -20,
                     "lh": 136.8,
@@ -9610,7 +9610,7 @@
     "list": [
       {
         "origin": 1,
-        "fPath": "",
+        "fPath": "assets/lottie/Montserrat-Bold.ttf",
         "fClass": "",
         "fFamily": "Share Tech Mono",
         "fWeight": "",
@@ -9620,7 +9620,7 @@
       },
       {
         "origin": 1,
-        "fPath": "",
+        "fPath": "assets/lottie/Montserrat-Bold.ttf",
         "fClass": "",
         "fFamily": "Noto Sans JP",
         "fWeight": "600",
@@ -9630,7 +9630,7 @@
       },
       {
         "origin": 0,
-        "fPath": "",
+        "fPath": "assets/lottie/Montserrat-Bold.ttf",
         "fClass": "",
         "fFamily": "Montserrat",
         "fWeight": "600",
@@ -9640,7 +9640,7 @@
       },
       {
         "origin": 1,
-        "fPath": "",
+        "fPath": "assets/lottie/Montserrat-Bold.ttf",
         "fClass": "",
         "fFamily": "Montserrat",
         "fWeight": "600",
